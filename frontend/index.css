@@ -1,0 +1,86 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  padding: 10px 15px;
+  background-color: #1a8917;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+#newPostButton,
+#submitPostButton {
+  padding: 10px 15px;
+  background-color: #1a8917;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#editorContainer {
+  margin-top: 20px;
+}
+
+#postTitle {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#editor {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post .author,
+.post .timestamp {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.post .author {
+  margin-bottom: 5px;
+}
